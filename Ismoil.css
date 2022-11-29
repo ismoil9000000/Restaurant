@@ -1,0 +1,30 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+/* start birinchi section */
+.box1{
+    height: 243px;
+    background-color: #FFF8F5;
+}
+.dad{
+    width: 100%;
+    padding-left: 2.78%;
+    padding-top: 99.66px;
+}
+.kul{
+    height: 83px;
+    position: relative;
+}
+.kul img{
+    position: absolute;
+    top: 0px;
+}
+.kul span{
+    margin-left: 100px;
+}
+.box2{
+    height: 83px;
+    display: inline-block;
+}
+/* end birinchi section */
