@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Infant:wght@400;500&family=Josefin+Sans&display=swap');
 *{
     padding: 0px;
     margin: 0px;
@@ -8,8 +9,7 @@
     background-color: #FFF8F5;
 }
 .dad{
-    width: 100%;
-    padding-left: 2.78%;
+    width: 95%;
     padding-top: 99.66px;
 }
 .kul{
@@ -27,4 +27,53 @@
     height: 83px;
     display: inline-block;
 }
+.box2 h6{
+    font-family: 'Cormorant Infant', serif;
+    font-weight: 400;
+    font-size: 30px;
+    height: 30px;
+}
+.box2 p{
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 400;
+    font-size: 20;
+    height: 30px;
+}
 /* end birinchi section */
+
+/* start ikkinchi section */
+.box3{
+    background-color: #FFF8F5;
+    height: 670px;
+}
+.dad2{
+    height: 568px;
+    padding-top: 60px;
+    top: 84px;
+    width: 96%;
+}
+.kul2{
+    width: 800px !important;
+    margin-top: 24px;
+}
+.kul2 img{
+    width: 750px;
+}
+.kul3{
+    margin-top: 24px;
+}
+.kul3 p{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+}
+.kul3 h5{
+    font-family: 'Cormorant Infant', serif;
+    font-size: 40px;
+    height: 56px;
+    font-weight: 400;
+}
+.dd{
+    width: 95%;
+}
+/* end ikkinchi section */
