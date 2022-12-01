@@ -44,20 +44,15 @@
 /* start ikkinchi section */
 .box3{
     background-color: #FFF8F5;
-    height: 670px;
+    /* height: 670px; */
 }
 .dad2{
-    height: 568px;
-    padding-top: 60px;
+    padding-top: 30px;
     top: 84px;
     width: 96%;
 }
 .kul2{
-    width: 800px !important;
     margin-top: 24px;
-}
-.kul2 img{
-    width: 750px;
 }
 .kul3{
     margin-top: 24px;
@@ -69,7 +64,7 @@
 }
 .kul3 h5{
     font-family: 'Cormorant Infant', serif;
-    font-size: 40px;
+    /* font-size: 40px; */
     height: 56px;
     font-weight: 400;
 }
@@ -77,3 +72,75 @@
     width: 95%;
 }
 /* end ikkinchi section */
+
+/* start media */
+@media only screen and (max-width: 576px) {
+    .box1{
+        display: none;
+    }
+    .box3{
+        height: 860px;
+    }
+    .kul2 img{
+        width: 530px;
+    }
+    .kul3 h5{
+        font-size: 32px;
+    }
+    .kul3 p{
+        font-size: 17px;
+    }
+}
+@media only screen and (min-width: 576px) {
+    .box1{
+        display: none !important;
+    }
+    .box3{
+        height: 860px;
+    }
+    .kul2 img{
+        width: 530px;
+    }
+    .kul3 h5{
+        font-size: 32px;
+    }
+    .kul3 p{
+        font-size: 17px;
+    }
+    .dd{
+        padding-top: 15px;
+    }
+}
+@media only screen and (min-width: 768px) {
+    .box3{
+        height: 553px;
+    }
+    .kul2 img{
+        width: 360px;
+    }
+    .dd{
+        padding-top: 0px;
+    }
+}
+@media only screen and (min-width: 1200px) {
+    .box1{
+        display: block !important;
+    }
+    .box3{
+        height: 500px;
+    }
+    .kul2 img{
+        width: 540px;
+    }
+}
+@media only screen and (min-width: 1400px) {
+    .box1{
+        display: block !important;
+    }
+    .box3{
+        height: 600px;
+    }
+    .kul2 img{
+        width: 670px;
+    }
+}
